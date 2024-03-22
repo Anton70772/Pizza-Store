@@ -1,0 +1,38 @@
+.root {
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.prevArrow, .nextArrow, .prevArrowVertical, .nextArrowVertical {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgb(255, 255, 255, 0.7);
+    position: absolute;
+}
+
+.prevArrow {
+    left: 16px;
+    cursor: pointer;
+}
+
+.nextArrow {
+    right: 16px;
+    cursor: pointer;
+}
+
+.prevArrowVertical {
+    top: 16px;
+    cursor: pointer;
+}
+
+.nextArrowVertical {
+    bottom: 16px;
+    cursor: pointer;
+}

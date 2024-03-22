@@ -1,0 +1,12 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 100%;
+    background: rgb(188, 245, 255);
+    padding: 16px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
